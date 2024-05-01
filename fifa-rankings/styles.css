@@ -34,11 +34,11 @@ img{
 }
 
 p{
-	font-size: 18px;
+	font-size: 16px;
     margin-top: 0px;
     margin-bottom: 20px;
 	line-height: 1.4;
-    font-family: "Arial";
+    font-family: "Helvetica";
     text-align: left;
     max-width: 1000px;
     margin: auto;
