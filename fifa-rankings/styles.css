@@ -10,17 +10,25 @@ body{
 }
 
 
+.attribution{
+box-sizing: border-box;
+}
+
 
 .by-line{
     font-size: 14px;
-    margin-top: 0px;
-    margin-bottom: 5px;
-	line-height: 1.4;
     font-family: "Mulish";
     text-align: left;
     max-width: 1000px;
-    margin: auto;
-   
+    padding: 0px;
+    line-height: 0;
+}
+
+.pubdate{
+    font-size: 11px;
+    color: #606060;
+    font-family: "Mulish";
+    margin-top: -7px;
 }
 
 
@@ -28,7 +36,7 @@ body{
     display: flex;
     max-width: 1080px;
     margin: auto;
-    padding: 20px;
+    padding: 0px;
 }
 
 .text {
@@ -56,9 +64,8 @@ p,h1,h2{
     margin-left:auto;
     margin-right:auto;
     max-width: 1000px;
-    max-height: min-content;
     margin: auto;
-    padding: 20px;
+    padding: 30px;
 }
 
 
@@ -85,13 +92,11 @@ img{
 
 p{
 	font-size: 16px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-	line-height: 1.4;
+	
     font-family: "Mulish";
     text-align: left;
     max-width: 1000px;
-    margin: auto;
+ 
     padding: 20px;
 }
 
@@ -100,16 +105,22 @@ h1{
     }
 
 h2{
-    font-weight: 400;
+    font-weight: 700;
     font-family: "Mulish";
+    margin-bottom: 0px;
 }
 
 
 .divider {
-height: 2px;
-background-color: #00008B;
 max-width: 1000px;
 margin: auto;
+color: inherit;
+background: linear-gradient(to right, #add8e6, #00008B 100%);
+background-position: 0 100%;
+background-size: 100% 4px;
+background-repeat: repeat-x;
+height: 4px;
+border: 0;
 }
 
 
@@ -135,5 +146,41 @@ a:link {
     
 
 
+  .flex-row{
+    display: flex;
+    flex-wrap: wrap;
+  }      
         
-        
+  .bordered{
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #add8e6, #00008B 100%);
+    border-image-slice: 1;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+  }
+
+
+  .flex-column{
+    flex: 25% 1;
+    max-width: 25%;
+  }
+
+
+  .graphic-footer{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 1em;
+  }
+
+
+  .centered{
+    text-align: center;
+  }
+
+  .figcaption{
+    display:block;
+    unicode-bidi: isolate;
+
+  }
