@@ -2,18 +2,68 @@ body{
     background-color: white;
 }
 
+.landing{
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 1950px;
+}
+
+
+
+.by-line{
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+	line-height: 1.4;
+    font-family: "Mulish";
+    text-align: left;
+    max-width: 1000px;
+    margin: auto;
+   
+}
+
+
+.container {
+    display: flex;
+    max-width: 1080px;
+    margin: auto;
+    padding: 20px;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.image {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+    margin:auto;
+    max-width: 1000px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
 p,h1,h2{
     width: 100%;
     margin-left:auto;
     margin-right:auto;
     max-width: 1000px;
+    max-height: min-content;
     margin: auto;
     padding: 20px;
 }
 
 
 h1{
-    font-size: 50px;
+    font-size: 150px;
     margin-left:auto;
     margin-right:auto;
     margin-top: 0px;
@@ -30,7 +80,7 @@ img{
     display: block; 
     max-width: 1000px;
     margin: auto;
-    padding: 20px;
+    padding: 0px;
 }
 
 p{
@@ -38,16 +88,21 @@ p{
     margin-top: 0px;
     margin-bottom: 20px;
 	line-height: 1.4;
-    font-family: "Helvetica";
+    font-family: "Mulish";
     text-align: left;
     max-width: 1000px;
     margin: auto;
     padding: 20px;
 }
 
-h1, h2 { 
+h1{ 
     font-family: "Bebas Neue";
     }
+
+h2{
+    font-weight: 400;
+    font-family: "Mulish";
+}
 
 
 .divider {
