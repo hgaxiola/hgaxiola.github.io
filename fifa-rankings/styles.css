@@ -39,7 +39,7 @@ body{
 .image {
     flex: 1;
     padding: 20px;
-    text-align: right;
+    text-align: auto;
     margin:auto;
     max-width: 1000px;
 }
